@@ -8,4 +8,4 @@ This program is a reproduction of the "data encryption standard" algorithm in th
 
 # ransomware #
 
-A basic ransomware iteration made following simple tutorials; an example made only for educational purposes, do not use it for malicious purposes, as it may result in legal issues. 
+A basic ransomware iteration made following simple tutorials; an example made only for educational purposes, do not use it for other goals, as it may result in legal issues. 
