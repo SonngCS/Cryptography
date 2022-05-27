@@ -1,6 +1,6 @@
 # Cryptography
 
-This repository contains pieces of code and algorithms related to cryptography.
+This repository contains pieces of code and algorithms related to cryptography and cybersecurity.
 
 # DES #
 
