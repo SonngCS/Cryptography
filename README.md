@@ -12,4 +12,4 @@ A basic ransomware iteration made in Python after following a couple of simple t
 
 # GAR #
 
-A basic program in C++ using Winsock2 to transfer files between two machines on the same network using TCP IP. This was made using CLION and the project folder was ported to Github.
+A basic program in C++ using Winsock2 to transfer files between two machines on the same network using TCP IP. This was made using CLION and the project folder was ported to Github. I am aware the code is not 100% clean, but since I am busy with another projects and work-related stuff, I will not be updating it any time soon, sadly... But I thought it would be better to post it in here anyway. The code was made using Microsoft's official documentations and tutorials at: https://learn.microsoft.com/en-us/windows/win32/winsock/getting-started-with-winsock 
