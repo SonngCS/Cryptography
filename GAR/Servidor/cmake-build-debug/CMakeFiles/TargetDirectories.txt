@@ -1,0 +1,3 @@
+D:/Codigos/C++/GAR/CLION/Servidor/cmake-build-debug/CMakeFiles/yourExec.dir
+D:/Codigos/C++/GAR/CLION/Servidor/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Codigos/C++/GAR/CLION/Servidor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
